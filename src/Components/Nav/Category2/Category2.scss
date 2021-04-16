@@ -1,0 +1,33 @@
+.notIntroduce {
+  display: none;
+}
+
+.introduce {
+  position: fixed;
+  width: 100%;
+  height: auto;
+  padding: 50px 350px;
+  background-color: #333;
+
+  .introduceContainer {
+    display: flex;
+
+    ul {
+      margin-right: 50px;
+
+      li:nth-child(1) {
+        margin: 0 0 25px 0;
+        color: white;
+        font-size: 17px;
+      }
+
+      li {
+        margin-top: 20px;
+        font-size: 14px;
+        font-family: 'Gothic A1', sans-serif;
+        font-weight: bolder;
+        color: grey;
+      }
+    }
+  }
+}
