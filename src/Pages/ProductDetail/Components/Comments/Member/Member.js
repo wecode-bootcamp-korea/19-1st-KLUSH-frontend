@@ -80,7 +80,6 @@ class Member extends Component {
     fetch(`${COMMENT_API}/${this.props.match.params.id}`)
       .then(res => res.json())
       .then(data => {
-        console.log(data);
         this.setState({
           commentsList: data.results,
         });
